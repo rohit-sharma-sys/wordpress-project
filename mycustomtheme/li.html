@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Animation</title>
+  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+    .typing-animation {
+    width: 9%;
+}
+  .typing-animation p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+   
+  }
+
+  .typing-text {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    animation: typing 3s infinite alternate; 
+  }
+
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="typing-animation">
+    <span class="typing-text">Typing Animation</span>
+  </div>
+  
