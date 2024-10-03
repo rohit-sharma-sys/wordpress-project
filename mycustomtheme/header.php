@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/new.css">
-    <title>Document</title>
+    <title>Documents</title>
 </head>
 <?php $logoimage = get_header_image(); ?>
 <body>
